@@ -33,13 +33,9 @@ public class MainActivity extends AppCompatActivity {
         players[1] = new Player("Madison G", "O");
         startText = (TextView) findViewById(R.id.textStart);
         button1 = (TTTButton)findViewById(R.id.button1);
-        button1.setIndex(1);
         button2 = (TTTButton)findViewById(R.id.button2);
-        button2.setIndex(2);
         button3 = (TTTButton)findViewById(R.id.button3);
-        button3.setIndex(3);
         button4 = (TTTButton)findViewById(R.id.button4);
-        button4.setIndex(4);
         button5 = (TTTButton)findViewById(R.id.button5);
         button6 = (TTTButton)findViewById(R.id.button6);
         button7 = (TTTButton)findViewById(R.id.button7);
